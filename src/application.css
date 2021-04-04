@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2021, 4:02:17 PM
+    Author     : Aron
+*/
+
+.root {
+    -fx-background-color: black;
+}
+
+#lblStatus {
+    -fx-text-fill: yellow;
+    -fx-background-color: black;
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+    -fx-font-weight: bold;
+}
+
+#txtServerIP {
+    /*-fx-font-size: 30px ;*/
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+    -fx-font-weight: bold;
+}
+
+#txtPort {
+    /*-fx-font-size: 30px ;*/
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+    -fx-font-weight: bold;
+}
+
+#txtPassword {
+    /*-fx-font-size: 30px ;*/
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+    -fx-font-weight: bold;
+}
+
+#loginButton {
+    -fx-background-color: #3a6af0;
+    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#displayScreen {
+    -fx-border-style:solid;
+    -fx-border-width: 1;
+    -fx-border-color:darkblue;
+    -fx-control-inner-background: black;
+    /*-fx-background-color: black;*/
+    -fx-text-fill: lightblue;
+    /*-fx-highlight-fill: black;*/
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+/*    -fx-font-weight: bold;*/
+}
+
+#msgInputBox {
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+    -fx-border-style:solid;
+    -fx-border-width: 1;
+    -fx-border-color:purple;
+    -fx-control-inner-background: black;
+    /*-fx-background-color: black;*/
+    -fx-text-fill: lightgreen;
+    /*-fx-highlight-fill: black;*/
+    /*-fx-highlight-text-fill: green;*/
+    -fx-prompt-text-fill: green;
+/*    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;*/
+/*    -fx-font-weight: bold;*/
+}
+
+#disconnectBtn {
+    -fx-background-image: url(img/LemonMan.jpg);
+    -fx-background-size: 45px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 50%;
+    -fx-background-color: black;
+/*    -fx-text-fill: black;
+    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;*/
+}
+
+#sendButton {
+    -fx-background-image: url(img/lemon.png);
+    -fx-background-size: 45px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 50%;
+    -fx-background-color: black;
+    /*
+    -fx-text-fill: black;
+    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;*/
+}
+
+#displayScreen .scroll-bar:horizontal,
+#displayScreen .scroll-bar:vertical {
+    -fx-background-color:transparent;
+}
+
+#displayScreen .increment-button,
+#displayScreen .decrement-button {
+    -fx-background-color:black;
+    -fx-border-color:red;
+}
+
+#displayScreen .scroll-bar:horizontal .track,
+#displayScreen .scroll-bar:vertical .track {
+    -fx-background-color:black;
+    -fx-border-color:black;
+    -fx-background-radius: 0em;
+}
+
+#displayScreen .scroll-bar:horizontal .thumb,
+#displayScreen .scroll-bar:vertical .thumb {
+    -fx-background-color:black;
+    -fx-border-color:blue;
+    -fx-background-insets:0,0,0;
+    -fx-background-radius: 0em;
+}
+
+#msgInputBox .scroll-bar:horizontal,
+#msgInputBox .scroll-bar:vertical {
+    -fx-background-color:black;
+}
+
+#msgInputBox .increment-button,
+#msgInputBox .decrement-button {
+    -fx-background-color:black;
+    -fx-border-color:blue;
+}
+
+#msgInputBox .scroll-bar:horizontal .track,
+#msgInputBox .scroll-bar:vertical .track {
+    -fx-background-color:black;
+    -fx-border-color:black;
+    -fx-background-radius: 0em;
+}
+
+#msgInputBox .scroll-bar:horizontal .thumb,
+#msgInputBox .scroll-bar:vertical .thumb {
+    -fx-background-color:black;
+    -fx-border-color:red;
+    -fx-background-insets:0,0,0;
+    -fx-background-radius: 0em;
+}
