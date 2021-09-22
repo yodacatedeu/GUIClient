@@ -1,4 +1,4 @@
 # GUIClient
-A JavaFXGUI client for my server 
+A JavaFXGUI client for MultiCLientServer
 
 Utilizes FXML files with CSS
